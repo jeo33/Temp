@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query 3D Visualizations - Index</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            min-height: 100vh;
+            padding: 40px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, background 0.3s;
+            text-decoration: none;
+            color: #eee;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+        .card h2 {
+            margin-bottom: 10px;
+            color: #00d4ff;
+        }
+        .card p {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Query 3D Visualizations</h1>
+    <div class="grid">
+
+        <a href="query_0_3d.html" class="card">
+            <h2>Query 0</h2>
+            <p>Recall: 8/10 | Fake: 6 | Missed: 2</p>
+        </a>
+    
+        <a href="query_1_3d.html" class="card">
+            <h2>Query 1</h2>
+            <p>Recall: 7/10 | Fake: 5 | Missed: 3</p>
+        </a>
+    
+        <a href="query_2_3d.html" class="card">
+            <h2>Query 2</h2>
+            <p>Recall: 9/10 | Fake: 8 | Missed: 1</p>
+        </a>
+    
+        <a href="query_3_3d.html" class="card">
+            <h2>Query 3</h2>
+            <p>Recall: 10/10 | Fake: 8 | Missed: 0</p>
+        </a>
+    
+        <a href="query_4_3d.html" class="card">
+            <h2>Query 4</h2>
+            <p>Recall: 9/10 | Fake: 6 | Missed: 1</p>
+        </a>
+    
+        <a href="query_5_3d.html" class="card">
+            <h2>Query 5</h2>
+            <p>Recall: 7/10 | Fake: 6 | Missed: 1</p>
+        </a>
+    
+        <a href="query_6_3d.html" class="card">
+            <h2>Query 6</h2>
+            <p>Recall: 1/10 | Fake: 9 | Missed: 7</p>
+        </a>
+    
+        <a href="query_7_3d.html" class="card">
+            <h2>Query 7</h2>
+            <p>Recall: 10/10 | Fake: 8 | Missed: 0</p>
+        </a>
+    
+        <a href="query_8_3d.html" class="card">
+            <h2>Query 8</h2>
+            <p>Recall: 8/10 | Fake: 5 | Missed: 1</p>
+        </a>
+    
+        <a href="query_9_3d.html" class="card">
+            <h2>Query 9</h2>
+            <p>Recall: 7/10 | Fake: 4 | Missed: 2</p>
+        </a>
+    
+    </div>
+</body>
+</html>
